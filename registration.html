@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>register</title>
+  </head>
+  <body background="white">
+
+      <form action="home.html" method="get">
+
+        <table cellpadding="10" style="color:white; background-color:rgba(4,29,49,0.7);width:38%; margin-left:31%";>
+          <tr>
+            <td><h1 style="color:white;text-align:center;margin-left:0";>Create account</h1></td>
+          </tr>
+          <tr >
+            <td>First Name:</td>
+            <td><input type="text" name="fname" value=""></td>
+          </tr>
+          <tr>
+            <td>Middle Name:</td>
+            <td><input type="text" name="mname" value=""></td>
+          </tr>
+          <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="lname" value=""></td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" value="">
+            </td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td><input type="password" name="pwd" value="">
+            </td>
+          </tr>
+          <tr>
+            <td>Re-type Password</td>
+            <td><input type="password" name="repwd" value="">
+            </td>
+          </tr>
+          <tr>
+            <td>Mobile:</td>
+            <td><input type="tel" name="mobno" value="" pattern="[0-9]{10}">
+            </td>
+          </tr>
+
+          <tr>
+            <td>D.O.B</td>
+            <td><input type="date" name="dob" value="" ></td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="gender" value="">Male
+                <input type="radio" name="gender" value="">Female
+                <input type="radio" name="gender" value="">Others
+            </td>
+          </tr>
+          <tr>
+            <tr>
+              <td>Interesed in</td>
+              <td> <select name="intersets" multiple styel="border-width: 2px;border-style: inset;width:4%";>
+                      <option value="sports ">sports </option>
+                      <option value="Books">Books</option>
+                      <option value="computer & software ">computer & software </option>
+                      <option value="photography">photography</option>
+                      <option value="music">music</option>
+                      <option value="poetry">poetry</option>
+                      <option value="drawing">Drawing</option>
+                   </select>
+            </td>
+            </tr>
+            <tr>
+            <td>Address1</td>
+            <td><textarea name="caddr" rows="6" cols="25" placeholder="Enter your current address"></textarea></td>
+          </tr>
+          <tr>
+            <td>Address2</td>
+            <td><textarea name="paddr" rows="6" cols="25" placeholder="Enter your permanent address"></textarea></td>
+          </tr>
+          <tr>
+            <td>Country: </td>
+            <td><input type="text" name="country"></td>
+          </tr>
+          <tr>
+            <td>State: </td>
+            <td><input type="text" name="state"></td>
+          </tr>
+          <tr>
+            <td>City: </td>
+            <td><input type="text" name="city" ></td>
+          </tr>
+          <tr>
+          <td>Zip Code : </td>
+          <td><input type="text" name="zip" ></td>
+         </tr>
+         <tr>
+
+           <td style="padding-left:75%";><input type="button" value="Register" style="width:100px;height:30px";/></td>
+         </tr>
+
+        </table>
+      </form>
+  </body>
+</html>
