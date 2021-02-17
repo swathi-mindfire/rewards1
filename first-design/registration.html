@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="formfinal.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="head"><p>Create account</p></div>
+        <div class="form f1">
+          <form action="home.html" method="post">
+           
+            <p class="fname">
+              <input type="text" name="fname" value="" placeholder="Enter First Name" class="name-inp name1">
+              <input type="text" name="lname" value="" placeholder="Enter Middle Name" class="name-inp name2">
+              <input type="text" name="lname" value="" placeholder="Enter Last Name" class="name-inp name3">
+            <p>
+              <input type="email" name="uid" value="" placeholder="Enter your Email" class="name-inp fname mail">
+            </p>
+            
+            <p class="pwd">    
+              <input type="password" name="password" placeholder="Enter password" class="password fpass">
+              <input type="password" name="password" placeholder="Confirm password" class="password rpass">
+            </p>
+           
+            <p><input type="tel" name="mobno" placeholder="Enter your mobile number" pattern="[0-9]{10}" password" class="name-inp tel"></p>
+            <p class="gender">
+                <span class="gen">Gender</span>
+                <input type="radio" class="gendr genm" name="gendr">  male
+                <input type="radio" class="gendr genf" name="gendr">  female
+                <input type="radio" class="gendr geno" name="gendr">  others
+            </p>
+            <p class="dob">
+              Date of Birth 
+            <td><input type="date" name="dob" value="" >
+            </p>
+            <p><input type="submit" name="sb" value="Sign Up" class="sub"></p>
+          </form>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
